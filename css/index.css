@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Roboto:wght@100&display=swap');
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* Encabezado */
+.header {
+  text-align: center;
+  background-image: url('IMG/patronfondo.avif');
+}
+
+.header img {
+  margin: 10px;
+}
+
+/* Barra de navegación */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 24px;
+}
+
+.navbar .nav-list {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-list li {
+  float: left;
+  margin-left: 20px;
+}
+
+.navbar .nav-list li a {
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.navbar .nav-list li a:hover {
+  background-color: #557B92;
+  color: white;
+}
+
+/* Contenedor principal */
+.main-container {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.main-container h1, .main-container h3, .main-container h4, .main-container p {
+  margin-bottom: 15px;
+}
+
+/* Formulario */
+form {
+  margin-top: 20px;
+}
+
+/* Contenedor de servicios */
+.services-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.services-container h2 {
+  margin-bottom: 20px;
+}
+
+.services-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-container li {
+  margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  background-color: #8DB58D;
+}
+
+/* Estilos para el contenedor principal */
+.main-container {
+  width: 688px;
+  border: 1px solid #ccc;
+}
+
+form {
+  margin-top: 20px;
+}
+
+h1, h3, h4, p {
+  margin: 0;
+}
+
+h1{
+  color: #ffff;
+}
+
+h4{
+  color: #ffff;
+  }
+  h3{
+    color:#ffff;
+  }
+
+p{
+  font-weight: bold;
+}
+
+
+/* Estilos para menú desplegable */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #557B92;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+  margin: 10px 0;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Agrega este bloque de estilos en tu archivo index.css después de los estilos existentes */
+
+form {
+  max-width: 400px;
+  margin: auto;
+  background-color: #e6ffe6; /* Verde claro */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 128, 0, 0.2); /* Sutil sombra verde */
+}
+
+form p {
+  margin: 10px 0;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #4caf50; /* Verde más oscuro */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form .btn-enviar {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form .btn-enviar:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
